@@ -1,0 +1,109 @@
+body {
+    background-image: url("../img/pattern.jpg");
+    font-family: 'Slabo 27px', serif;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    float: right;
+    background-color: white;
+}
+
+header ul a {
+    padding-right: 10px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar img {
+    float: left;
+    width: 200px;
+}
+
+.navbar ul {
+    text-align: right;
+    float: right;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#logo {
+    background-color: white;
+    margin-right: auto;
+    cursor: pointer;
+    display: flex;
+    width: 200px;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 1000px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+#article-list {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#article-list div {
+    padding: 30px 10px;
+}
+
+#article-list div h3 {
+    padding-bottom: 20px;
+}
+
+#article-list div p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(133, 129, 129);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+}
+
+h5 {
+    color: white;
+}
